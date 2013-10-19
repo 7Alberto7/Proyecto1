@@ -1,6 +1,7 @@
 package paq;
 
 public class C1 {
+
 	private int atr1;
 	private int atr2;
 	private String atr3;
@@ -26,5 +27,13 @@ public class C1 {
 
 	public void setAtr2(int atr2) {
 		this.atr2 = atr2;
+	}
+
+	public String getAtr3() {
+		return atr3;
+	}
+
+	public void setAtr3(String atr3) {
+		this.atr3 = atr3;
 	}
 }
