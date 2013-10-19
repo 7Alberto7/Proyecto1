@@ -36,4 +36,10 @@ public class C1 {
 	public void setAtr3(String atr3) {
 		this.atr3 = atr3;
 	}
+
+	public String toString() {
+		return Integer.toString(getAtr1()) + "" + Integer.toString(getAtr2())
+				+ "" + getAtr3();
+
+	}
 }
